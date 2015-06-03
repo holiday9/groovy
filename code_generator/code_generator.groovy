@@ -4,10 +4,8 @@ class CodeGenerator extends Script {
     def run() {
         println 'code generator'
         
-        this.args.each {
-            println it
-        }
-
+        println this.args[0]
+        
     }   
 
     static void main(String[] args) {
